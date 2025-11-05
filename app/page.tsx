@@ -9,7 +9,7 @@ export default function Home() {
           <li><a href="/Tyler">Tyler</a></li>
           <li><a href="/Goop">Goop</a></li>
           <li>Ghoul</li>
-          <li><a href="/ReflectedLight">Reflected Light</a></li>
+          <li><a href="/Triangle Visualizer">Triangle Visualizer</a></li>
         </ul>
       </nav>
     </div>
