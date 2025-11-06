@@ -17,8 +17,8 @@ const projects = [
     icon: "🎨",
   },
   {
-    name: "Goop",
-    href: "/Goop",
+    name: "To-Do App",
+    href: "/todo",
     description: "Fluid and dynamic interactions",
     icon: "💫",
   },
