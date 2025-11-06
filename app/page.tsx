@@ -96,20 +96,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Projects Grid */}
+            {/* Projects Grid */}
       <section id="projects" className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <h3 className="text-4xl font-bold mb-16 text-balance">Featured Projects</h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            {projects.map((project, index) => (
+            {projects.map((project) => (
               <Link
                 key={project.name}
                 href={project.href}
                 className="group relative overflow-hidden rounded-2xl bg-card border border-border p-8 hover:border-primary transition-all duration-300"
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-
                 <div className="relative space-y-4">
                   <div className="text-5xl">{project.icon}</div>
                   <div>
@@ -125,7 +124,9 @@ export default function Home() {
               </Link>
             ))}
           </div>
+        </div> {/* ✅ add this missing closing div */}
       </section>
+
 
       {/* CTA Section */}
       <section id="explore" className="py-20 px-6 border-t border-border">
