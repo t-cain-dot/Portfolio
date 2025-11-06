@@ -5,8 +5,8 @@ import { useState, useEffect } from "react"
 
 const projects = [
   {
-    name: "Kaden",
-    href: "/Kaden",
+    name: "Resume",
+    href: "/resume",
     description: "Explore creative experiences",
     icon: "✨",
   },
