@@ -66,7 +66,7 @@ export default function Home() {
           <div className="space-y-4">
             <h2 className="text-6xl md:text-7xl font-bold text-pretty leading-tight">Tyler Cain's Portfolio</h2>
             <p className="text-xl md:text-2xl text-muted-foreground text-balance">
-              A collection of creative projects and my current resume.
+              A showcase of my creative work and career journey
             </p>
           </div>
 
