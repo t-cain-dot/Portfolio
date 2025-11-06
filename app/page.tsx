@@ -64,9 +64,9 @@ export default function Home() {
       <section className="min-h-screen flex items-center justify-center px-6 pt-20">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div className="space-y-4">
-            <h2 className="text-6xl md:text-7xl font-bold text-pretty leading-tight">Digital Experiences</h2>
+            <h2 className="text-6xl md:text-7xl font-bold text-pretty leading-tight">Tyler Cain's Portfolio</h2>
             <p className="text-xl md:text-2xl text-muted-foreground text-balance">
-              A collection of creative projects and interactive visualizations
+              A collection of creative projects and my current resume.
             </p>
           </div>
 
