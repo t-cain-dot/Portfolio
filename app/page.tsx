@@ -125,24 +125,6 @@ export default function Home() {
               </Link>
             ))}
           </div>
-
-          {/* Coming Soon */}
-          <div className="space-y-6">
-            <h4 className="text-2xl font-bold text-muted-foreground">Coming Soon</h4>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {comingSoon.map((item) => (
-                <div
-                  key={item.name}
-                  className="rounded-2xl bg-card/50 border border-border border-dashed p-8 opacity-60"
-                >
-                  <div className="text-5xl mb-4">{item.icon}</div>
-                  <h5 className="text-xl font-bold mb-2">{item.name}</h5>
-                  <p className="text-muted-foreground">{item.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
       </section>
 
       {/* CTA Section */}
