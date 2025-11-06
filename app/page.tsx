@@ -18,7 +18,7 @@ const projects = [
   },
   {
     name: "To-Do App",
-    href: "/todo",
+    href: "/to-do",
     description: "Fluid and dynamic interactions",
     icon: "💫",
   },
