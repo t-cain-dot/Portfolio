@@ -70,21 +70,6 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
-            <Link
-              href="#projects"
-              className="px-8 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:opacity-90 transition-opacity"
-            >
-              View All
-            </Link>
-            <Link
-              href="/Triangle Visualizer"
-              className="px-8 py-3 border border-border rounded-lg font-medium hover:bg-secondary transition-colors"
-            >
-              Start Exploring
-            </Link>
-          </div>
-
           {/* Scroll Indicator */}
           <div className="pt-12">
             <div className="inline-block animate-bounce">
@@ -99,7 +84,7 @@ export default function Home() {
             {/* Projects Grid */}
       <section id="projects" className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <h3 className="text-4xl font-bold mb-16 text-balance">Featured Projects</h3>
+          <h3 className="text-4xl font-bold mb-16 text-balance">Resume and Featured Projects</h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             {projects.map((project) => (
@@ -124,35 +109,13 @@ export default function Home() {
               </Link>
             ))}
           </div>
-        </div> {/* ✅ add this missing closing div */}
-      </section>
-
-
-      {/* CTA Section */}
-      <section id="explore" className="py-20 px-6 border-t border-border">
-        <div className="max-w-4xl mx-auto text-center space-y-8">
-          <h3 className="text-4xl font-bold text-pretty">Ready to Explore?</h3>
-          <p className="text-lg text-muted-foreground">
-            Pick any project to dive into interactive experiences and creative visualizations.
-          </p>
-          <div className="flex flex-wrap gap-3 justify-center">
-            {projects.map((project) => (
-              <Link
-                key={project.name}
-                href={project.href}
-                className="px-6 py-2 rounded-full bg-secondary text-secondary-foreground hover:bg-primary hover:text-primary-foreground transition-colors font-medium"
-              >
-                {project.name}
-              </Link>
-            ))}
-          </div>
-        </div>
+        </div> 
       </section>
 
       {/* Footer */}
       <footer className="border-t border-border py-12 px-6 bg-card/30">
         <div className="max-w-6xl mx-auto text-center text-muted-foreground">
-          <p>© 2025 Studio. Crafted with creativity and code.</p>
+          <p>© 2025 T.Cain Creation</p>
         </div>
       </footer>
     </div>
