@@ -6,13 +6,13 @@ import { useState, useEffect } from "react"
 const projects = [
   {
     name: "Resume",
-    href: "/resume",
+    href: "/tyler",
     description: "Explore creative experiences",
     icon: "✨",
   },
   {
-    name: "Tyler",
-    href: "/Tyler",
+    name: "Pokemon",
+    href: "/Pokemon",
     description: "Discover innovative design",
     icon: "🎨",
   },
