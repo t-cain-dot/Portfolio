@@ -1,5 +1,7 @@
 "use client";
 
+import { useState } from "react";
+
 export default function ResumePage() {
   const pdfUrl = "https://xywzbpmzpbcqlvikdbkh.supabase.co/storage/v1/object/public/Resume/TylerCainResume.pdf"
 
