@@ -5,7 +5,7 @@ import { useState, useEffect } from "react"
 
 const projects = [
   {
-    name: "resume,"
+    name: "Resume",
     href: "/resume",
     description: "Explore creative experiences",
     icon: "✨",
