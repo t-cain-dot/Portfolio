@@ -30,14 +30,6 @@ const projects = [
   },
 ]
 
-const comingSoon = [
-  {
-    name: "Ghoul",
-    description: "Something mysterious awaits",
-    icon: "👻",
-  },
-]
-
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false)
 
@@ -59,13 +51,10 @@ export default function Home() {
         }`}
       >
         <div className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
-          <h1 className="text-2xl font-bold">Studio</h1>
+          <h1 className="text-2xl font-bold"></h1>
           <nav className="flex gap-8">
             <Link href="#projects" className="text-muted-foreground hover:text-foreground transition-colors">
               Projects
-            </Link>
-            <Link href="#explore" className="text-muted-foreground hover:text-foreground transition-colors">
-              Explore
             </Link>
           </nav>
         </div>
