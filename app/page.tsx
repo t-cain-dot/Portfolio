@@ -25,7 +25,7 @@ const projects = [
   {
     name: "Triangle Visualizer",
     href: "/Triangle Visualizer",
-    description: "A React + TypeScript interactive triangle visualizer built with Next.js and Tailwind CSS. It dynamically calculates and displays triangle angles, height, and hypotenuse based on user inputs for base length and angle, rendered using SVG.",
+    description: "A React + TypeScript interactive triangle visualizer built with Next.js and Tailwind CSS. It calculates and displays triangle angles, height, and hypotenuse based on user inputs for base length and angle, rendered using SVG.",
     icon: "△",
   },
 ]
