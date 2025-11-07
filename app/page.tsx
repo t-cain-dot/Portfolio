@@ -7,25 +7,25 @@ const projects = [
   {
     name: "Resume",
     href: "/Tyler",
-    description: "Explore creative experiences",
+    description: "A simple Next.js + React component built with TypeScript that embeds and displays a hosted PDF resume using an iframe.",
     icon: "✨",
   },
   {
     name: "Pokemon",
     href: "/Pokemon",
-    description: "Discover innovative design",
-    icon: "🎨",
+    description: "Next.js + TypeScript project featuring Pokémon data from PokéAPI, styled with ShadCN components.",
+    icon: "🐉",
   },
   {
     name: "To-Do App",
     href: "/to-do",
-    description: "Fluid and dynamic interactions",
-    icon: "💫",
+    description: "A Next.js + TypeScript To-Do app built with React, Tailwind CSS, and Lucide icons. Tasks are saved in browser cookies using js-cookie for simple persistence.",
+    icon: "📝",
   },
   {
     name: "Triangle Visualizer",
     href: "/Triangle Visualizer",
-    description: "Geometric visualization tool",
+    description: "A React + TypeScript interactive triangle visualizer built with Next.js and Tailwind CSS. It dynamically calculates and displays triangle angles, height, and hypotenuse based on user inputs for base length and angle, rendered using SVG.",
     icon: "△",
   },
 ]
