@@ -59,14 +59,13 @@ export default function Home() {
           </nav>
         </div>
       </header>
-
-      {/* Hero Section */}
+      
       {/* Hero Section */}
 <section className="min-h-screen flex flex-col items-center justify-center px-6 pt-20 text-center space-y-8">
   {/* Profile Image */}
   <img
-    src="https://scontent.ffsd3-1.fna.fbcdn.net/v/t39.30808-6/311597559_6359203594111987_3044922591061925605_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=5C0vDRvlPLYQ7kNvwGSTo5j&_nc_oc=Adlod42q3aHX-en7GEL9cBd9_dMFcN4hpNjAgOyAT7TtL-o7ZzQ2NPdUDnSRNAXgEWTo7MJJr84OYW8hHpXUOTkh&_nc_zt=23&_nc_ht=scontent.ffsd3-1.fna&_nc_gid=cdg0TPAJdFRQXEfAM2GLvA&oh=00_AfhutDH70YHHAVlXcxjuMEIbYNVf_y2ScPa3CYeB7c1KQg&oe=69134C96"
-    alt="Tyler Cain profile"
+    src="/profilepic.jpg"
+    alt="Tyler Cain Profile Pic"
     className="w-40 h-40 rounded-full border-4 border-primary shadow-xl object-cover"
   />
 
